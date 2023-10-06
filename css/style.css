@@ -1,0 +1,659 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	text-transform: capitalize;
+	border: none;
+	outline: none;
+}
+
+body{
+	background: url(../images/bg.png) center no-repeat;
+	object-fit: cover;
+	height: 70vh;
+	background-size: 100%;
+}
+
+
+:root{
+	--aqua: aqua;
+	--black: black;
+}
+
+.btn{
+	padding: 23px;
+	background-color: aqua;
+	color: white;
+}
+
+
+
+header .inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+}
+
+header .icon a{
+	color: var(--black);
+	font-size: 25px;
+	margin-left: 5px;
+}
+
+header .navbar a{
+	color: var(--black);
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+
+header .navbar a:hover{
+	color: var(--aqua);
+}
+/* -------------------------develop------------------------------ */
+.develop .inner{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.develop .inner .content{
+	margin-right: 181;
+}
+
+.develop .inner .content h2{
+	font-size: 38px;
+	margin-bottom: 33px;
+	margin-top: 180px;
+	margin-right: 150px	;
+}
+
+.develop   .btn{
+	margin-bottom: 200px;
+}
+
+.develop .inner .content p{
+	font-size: 18px;
+	color: var(--black);
+	line-height: 31px;
+	margin-bottom: 38px;
+}
+
+/* -------------------------about------------------------------ */
+
+
+.about{
+	text-align: center;
+	margin-top: 200px;
+}
+
+.about h2{
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.about p{
+	line-height: 25px;
+	color: grey;
+	font-size: 16px;
+}
+
+.about img{
+	width: 222px;
+	height: 150px;
+	margin-bottom: 100px;
+}
+
+
+/* -------------------------about------------------------------ */
+
+.skills .inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+}
+
+.skills .img{
+	width: 49%;
+}
+
+.skills img{
+	width: 100%;
+}
+
+
+.skills .inner .ability h2{
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+
+.skills .inner .ability p{
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.skills .inner .ability .procent{
+	margin-bottom: 40px;
+}
+
+.skills .ability .procent{
+	/* border: 1px solid black; */
+	width: 500px;
+	height: 6px;
+}
+
+.skills .ability .procent .procent75{
+	border: 1px solid aqua;
+	background: var(--aqua);
+	width: 334px;
+
+}
+
+.skills .ability .procent .procent90{
+	border: 1px solid aqua;
+	background: var(--aqua);
+	width: 428px;
+}
+
+.skills .ability .procent .procent65{
+	border: 1px solid aqua;
+	background: var(--aqua);
+	width: 280px;
+}
+/* ------------------------------------------description------------------------------------ */
+.description .inner{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--aqua);
+	padding: 100px;
+}
+
+.description .inner .box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.description .inner .box .icon{
+	margin-right: 30px;
+	font-size: 48px;
+}
+
+.description .inner .box p{
+	margin-bottom: 16px;
+}
+
+
+/* --------------------------------gallery------------------------------- */
+
+.gallery .inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+		
+}
+
+.gallery .inner .box{
+		position: relative;
+		overflow: hidden;
+}
+
+.gallery .inner .box:hover .content{
+	top: 0px; left: 0px;
+	transition: 1s;
+}
+
+.gallery .inner .content i{
+	margin-top: 50px;
+	color: white;
+	font-size: 30px;
+}
+
+.gallery .inner .content{
+	position: absolute;
+	left: -100%; top: -100%;
+	background-color: rgba(0, 0, 0, .5);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 5rem;
+}
+.gallery img{
+	width: 376px;
+	height: 300px;
+}
+
+
+.gallery .inner .btn{
+	background-color: grey;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	color: #f5f5f5;
+	margin-bottom: 100px	;
+}
+
+
+.process .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+.process .container .inner .content h2{
+	font-size: 30px;
+	margin: 43px 0 43px 0;
+}
+
+.process .container .inner .content p{
+	line-height: 25px;
+	color: grey;
+}
+/* -------------------------------categories-------------------------------- */
+
+
+.categories .container .inner{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+
+.categories .container .inner .boxes {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	width: 100%;
+	flex-wrap: wrap;
+	padding: 0px 12%;
+	margin-bottom: 62px;
+}
+
+.categories .container .inner .box h2 {
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+.categories .container .inner .box p{
+	line-height: 24px;
+	margin: 20px 0px 0px 0px ;
+	font-size: 16px;
+	color: #787878;
+	/* margin-top: 20px; */
+	/* margin-bottom: 100px; */
+
+}
+
+
+
+/* --------------------------------------------text------------------------------------------ */
+
+
+
+.text{
+	background-color: var(--aqua);
+	text-align: center;
+}
+
+.text h2{
+	width: 50%;
+	padding-top: 186px;
+	line-height: 38px;
+	margin-bottom: 40px;
+	margin-left: 25%;
+}
+
+.text .point{
+	margin: 105px 60px 0px 3%;
+	font-size: 50px;
+	color: white;
+	/* margin-top: 105px;
+	margin-bottom: 60px; */
+}
+
+/* --------------------------------------------text------------------------------------------ */
+.logo .inner{
+	padding: 0 5%;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.logo .inner img{
+	width: 10%;
+	margin-left: 15px;
+}
+
+
+
+/* --------------------------------------------order------------------------------------------ */
+.order .inner , .categories{
+	background: #f5f5f5
+}
+.order {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: #f5f5f5
+}
+
+
+.order .inner .content h2{
+	font-size: 30px;
+	margin: 100px  0px 40px 0px;
+	/* margin-top: 100px;
+	margin-bottom: 40px; */
+}
+
+.order .inner .content p{
+	margin-bottom: 40px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #898989;
+}
+
+
+.order .inner form .inputbox input{
+	width: 40%;
+	margin-bottom: 40px;
+}
+
+.order .inner form input{
+	border: 1px solid black;
+	padding: 10px;
+	width: 87%;
+	margin: 0px 30px 30px 0px;
+	/* margin-left: 30px;
+	margin-bottom: 30px; */
+}
+
+.order .inner textarea{
+	width: 87%;
+	border: 1px solid black;
+	margin-right: 30px;
+	resize: none;
+}
+
+.order .inner .btn{
+	width: 25%;
+	padding: 23px;
+	margin-top: 72px;
+}
+
+/* --------------------------------footer------------------------------------------- */
+
+footer .inner{
+	margin-top: 100px;
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 5%;
+
+}
+
+footer .about-me h3{
+	margin-bottom: 27px;
+	color: white;
+	font-size: 18px;
+}
+
+footer .about-me p{
+	color: white;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+footer .contact address{
+	font-size: 15px;
+	color: white;
+	line-height: 22px;
+}
+
+footer .nav-bar a {
+	display: block;
+	color: white;
+	margin: 0px 0px 10px 100px;
+	/* margin-left: 100px;
+	margin-bottom: 10px; */
+
+}
+
+footer .navbar a {
+	display: block;
+	color: white;
+	margin: 10px;
+}
+
+footer .navbar{
+	margin-top: -112px;
+}
+
+
+footer .social a{
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	color: white;
+}
+
+
+
+
+
+
+@media (max-width: 1200px){
+	.develop .content{
+		margin: -63px 150px 100px 0px;
+	}
+
+	body {
+		background: url(../images/bg.png) center no-repeat;
+		object-fit: cover;
+		height: 60vh;
+	}
+
+	.gallery .inner .box{
+		width: 23%;
+	}
+
+	.gallery .inner .box img{
+		width: 100%; 
+	}
+
+	.categories .inner .boxes .box{
+		width: 24%;
+	}	
+}
+
+header #menu-bar{
+	display: none;
+}
+
+@media (max-width: 976px) {
+	.develop .content{
+		margin: 0px;
+	}
+
+	.develop .content .btn{
+		padding: 5px;
+		margin-left: 25%;
+	}
+
+	header .navbar a{
+		display: block;
+		border: 1px solid black;
+		width: 100%;
+
+	}
+
+	header .inner #menu-bar {
+		display: initial;
+	}
+
+	header #menu-bar{
+		display: initial;
+	}
+
+	header #menu-bar {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+
+	.develop .content{
+		display: none;
+	}
+
+	.about{
+		margin-top: 80%;
+	}
+
+	.order .form .text{
+		width: 60%;
+	}
+
+	.order .btn{
+		display: block;
+		margin-left: 30%;
+
+		
+	}
+
+	header .navbar{
+		position: absolute;
+		top: 15px; left: 55px; right: 0;
+		background: var(--yellow);
+		transform: scale(0);
+	}
+
+	header .navbar.active{
+		transform: scale(1);
+	}
+
+	header .navbar a{
+		display: block;
+		background: var(--white);
+		margin: .5rem;
+		padding: .5rem;
+		border-radius: .5rem;
+	}
+
+	.text {
+		font-size: 10px;
+	}
+
+	header .logo{
+		display: none;
+	}
+
+	footer .social{
+		display: none;
+	}
+
+
+
+	.skills img{
+		display: none;
+	}
+
+	.skills .ability{
+		margin-left: 30%;
+	}
+
+
+
+}
+
+
+
+@media (max-width: 676px){
+	body {
+		background: url(../images/bg.png) center no-repeat;
+		object-fit: cover;
+		height: 60vh;
+		background-size: 100% 100%;
+	}
+
+	.description .inner .box i{
+		font-size: 15px;
+		margin-right: 10px;
+	}
+
+	.description .inner .box .content{
+		width: 10%;
+	}
+
+	.gallery .inner .box{
+		width: 50%;
+	}
+
+	.video iframe{
+		width: 111%	;
+		margin-right: 40px;
+	}
+}
+
+
+
+
+
+
+/* @media (max-width: 1200px) {
+	.gallery .inner .box{
+		margin-left: 50px;
+		width: 40%;
+	}
+}
+
+@media (max-width: 976px) {
+
+	.develop  .content{
+		margin: -63px 10% 0px 0px;
+	}
+
+	.gallery .inner .box{
+		width: 23%;
+	}
+
+	.gallery .inner .content i{
+		margin-bottom: 500px;
+		text-align: center;
+		color: white;
+		/* font-size: 30px; */
+	/* }
+	.gallery .inner .box img{
+		width: 200px;
+		height: 100px;
+	}
+
+	.gallery .inner .content{
+		position: absolute;
+		left: -100%; top: -100%;
+		background-color: rgba(0, 0, 0, .5);
+		width: 200px;
+		height: 100px;
+		text-align: center;
+		padding: 5rem;
+	}
+
+
+	.categories .inner .box{
+		width: 23%;
+	}
+} */ 
